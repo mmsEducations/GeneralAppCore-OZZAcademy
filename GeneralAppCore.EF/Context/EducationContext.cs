@@ -24,6 +24,7 @@ public partial class EducationContext : DbContext
 
     //public virtual DbSet<StudentPrice> StudentPrices { get; set; }
 
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlServer("Server=.;Database=Education;Integrated Security=true;Encrypt = False");
